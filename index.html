@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>This is yours!</title>
+<title>art</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
@@ -19,15 +19,16 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <h3 class="w3-padding-64"><b>Elena<br>Kang</b></h3>
-    <img src = "1.png">
+    <h3 class="w3-padding-64"><b>Yvonne<br>Shen</b></h3>
+    <img src = "gromit.png">
   </div>
   <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
-    <a href="#bsn" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">BSN</a> 
-    <a href="#cats" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Cats</a> 
-    <a href="#spain" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Spain</a> 
-    <a href="#pooh" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Pooh</a> 
+    <a href="#"  class="w3-bar-item w3-button w3-hover-white">Sketching</a> 
+    <a href="#About"  class="w3-bar-item w3-button w3-hover-white">About me</a> 
+    
+    <a href="#Drawings"  class="w3-bar-item w3-button w3-hover-white">Drawings</a> 
+   
+    </a>
   </div>
 </nav>
 
@@ -44,27 +45,27 @@ body {font-size:16px;}
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="bsn">
-    <h1 class="w3-jumbo"><b>My PICTURES&nbsp</b><span style= "font-size:30%">in your face</span></h1>
-    <h1 class="w3-xxxlarge w3-text-red"><b>BSN.</b></h1>
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>My ARTS&nbsp</b><span style= "font-size:30%">in your face</span></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Sketching.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
   </div>
   
-  <!-- Services -->
+  <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-half">
-      <img src="Frontdoor.JPG" style="width:100%" onclick="onClick(this)" alt="WELCOME! BSN frontdoor">
-      <img src="Corridor.JPG" style="width:100%" onclick="onClick(this)" alt="Endless corridor with fascinating decorations">
-      <img src="Prizes.JPG" style="width:100%" onclick="onClick(this)" alt="Glorious prizes">
+      <img src="art11.jpg" style="width:100%" onclick="onClick(this)" alt="Paper planes">
+      <img src="art3.jpg" style="width:100%" onclick="onClick(this)" alt="Bottles">
+      
     </div>
 
     <div class="w3-half">
-      <img src="Library.JPG" style="width:100%" onclick="onClick(this)" alt="Luxurious library">
-      <img src="ICTroom.JPG" style="width:100%" onclick="onClick(this)" alt="Cool computers inside a cozy room">
-      <img src="Keyboard.JPG" style="width:100%" onclick="onClick(this)" alt="Interesting keyboard">
+      <img src="art7.jpg" style="width:100%" onclick="onClick(this)" alt="The Bull">
+      <img src="art6.jpg" style="width:100%" onclick="onClick(this)" alt="Sketching">
+      <img src="art9.jpg" style="width:100%" onclick="onClick(this)" alt="Paper cups">
     </div>
   </div>
-  
+
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
     <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
@@ -74,129 +75,72 @@ body {font-size:16px;}
     </div>
   </div>
 
-  <!-- Cats -->
-  <div class="w3-container" id="cats" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Cats.</b></h1>
+  <!-- About me -->
+  <div class="w3-container" id="About" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>About ME.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-  </div>
-  
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="cat1.jpg" style="width:100%" onclick="onClick(this)" alt="Baby Kittens">
-      <img src="cat2.jpg" style="width:100%" onclick="onClick(this)" alt="Cat on Car">
-    </div>
+    <p>About me</p>
+    <p>My name is YVONNE, 12 years old now. I have been learning art for 8 yesrs.
 
-    <div class="w3-half">
-      <img src="cat3.jpg" style="width:100%" onclick="onClick(this)" alt="Cat interested in the sea">
-    </div>
+     I like drawing color pencils the most, but everything is great for me. Now, I am focusing on sketching. And in skecthing , drawing charaters is my favorite. It makes me relax during drawing. 
+    </p>
   </div>
   
-  <!-- Spain -->
-  <div class="w3-container" id="spain" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Spain.</b></h1>
+  <!-- Designers -->
+  <div class="w3-container" id="Drawings" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Different tpyes on Drawings</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>There's a lot of types of art tools! Every tpye looks different when it's fineshed. Let's have a look!</p>
+    <p>Here are some example's of different art tools drawing...
+    </p>
+    
   </div>
 
   <!-- The Team -->
-  <div class="w3-row-padding">
+  <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="spain2.jpg" alt="Blue Sky" style="width:100%">
+        <img src="art18.jpg" alt="John" style="width:100%">
         <div class="w3-container">
-          <h3>Blue sky</h3>
-          <p class="w3-opacity">Barcelona</p>
-          <p>Amazing blue sky with birds flying.</p>
+          <h3>Tiger in the forest</h3>
+          <p class="w3-opacity">crayon</p>
+          <p>A tiger in the forest looking at you!</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="spain3.jpg" alt="Scenery of Spain" style="width:100%">
+        <img src="art14.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
-          <h3>Scenery of Spain</h3>
-          <p class="w3-opacity">Madrid</p>
-          <p>Beautiful scenery of Spain with lots of houses and trees.</p>
+          <h3>Girl</h3>
+          <p class="w3-opacity">markers</p>
+          <p>A little girl surounded by leafs.</p>
         </div>
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="spain5.jpg" alt="Curvy path" style="width:100%">
+        <img src="art12.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
-          <h3>Curvy path</h3>
-          <p class="w3-opacity">Sevilla</p>
-          <p>Curvy path with drawings on wall.</p>
+          <h3>Pikachu</h3>
+          <p class="w3-opacity">pencil</p>
+          <p>Look!It's waving at you!</p>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- Pooh -->
-  <div class="w3-container" id="pooh" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Pooh</b><span style="font-size: 50%">&nbspweenie the pooh</span></h1>
-    <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p> Meet Pooh! A very cute disney character! </p>
-  </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col m4 w3-margin-bottom">
+     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="pooh1.JPG" alt="Emotional Pooh" style="width:100%">
+        <img src="art15.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
-          <h3>Emotional Pooh</h3>
-          <p class="w3-opacity">On the windowsill</p>
-          <p>Pooh looking out the window with Stella Lou.</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="pooh2.JPG" alt="Falling Pooh" style="width:100%">
-        <div class="w3-container">
-          <h3>Falling Pooh</h3>
-          <p class="w3-opacity">Poor Pooh</p>
-          <p>Pooh is ready to fall...</p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="pooh3.JPG" alt="Pooh the musician" style="width:100%">
-        <div class="w3-container">
-          <h3>Pooh the musician</h3>
-          <p class="w3-opacity">Musical Pooh</p>
-          <p>Pooh plaing piano amazingly!!</p>
+          <h3>The lady</h3>
+          <p class="w3-opacity">markers</p>
+          <p>The lady is wearing on her shoes.</p>
         </div>
       </div>
     </div>
   </div>
-        
-<!-- End page content -->
-</div>
 
-<!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css&nbsp</a>modified from <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm">'Interior design'</a>&nbsptemplate 100% legit by MrG @ BSN</p>
-</div>
-
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
  
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 </script>
 
 </body>
